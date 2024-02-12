@@ -1,0 +1,10 @@
+{
+  "author" : "JamesTheMaker",
+  "description" : "Wallet is a mod that allows you to access all your currencies in one, easy to find place. Using [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2968438274]Community Framework[/url]'s Unipad as a tool, you can get a simple and quick readout of all your currencies (including modded ones!) and their quantities. \n\nThis mod also serves as an example on how to add new items to the Unipad and how to use the Unipad's unique text box. If you are a modder who wants to use the Unipad in their mod and were directed to this mod, please check the GitHub.",
+  "friendlyName" : "Wallet",
+  "link" : "steam://url/CommunityFilePage/3159564621",
+  "name" : "Wallet",
+  "steamContentId" : "3159564621",
+  "tags" : "In-Game Tools",
+  "version" : "1.0"
+}
