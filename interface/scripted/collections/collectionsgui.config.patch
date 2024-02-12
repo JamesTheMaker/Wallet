@@ -4,6 +4,6 @@
             "icon" : "/interface/scripted/collections/walleticon.png",
             "condition" : [ "/scripts/cf_functions/walletfunctions.lua", "hasCurrencies" ],
             "action" : [ "/scripts/cf_functions/walletfunctions.lua", "printCurrencies" ]
-        } 
+        }
     }
 ]
