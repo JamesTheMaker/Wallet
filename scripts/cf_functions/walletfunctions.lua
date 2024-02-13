@@ -15,11 +15,15 @@ function printCurrencies()
     str = "Your wallet contains:\n"
 
     for currency, dat in pairs(cfg) do
-        item = root.itemConfig(dat.representativeItem).config
+        if dat.representativeItem then
+            name = root.itemConfig(dat.representativeItem).config.shortdescription
+        else
+            name = currency
+        end
         hidden = dat.sail_hidden
 
         if player.currency(currency) > 0 and not hidden then
-            str = str .. item.shortdescription .. ": " .. player.currency(currency) .. "\n"
+            str = str .. name .. ": " .. player.currency(currency) .. "\n"
         end
     end
 
